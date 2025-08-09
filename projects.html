@@ -2,60 +2,100 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Projects | Parkavi</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" href="assets/favicon.ico" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
 </head>
 <body>
+
   <header class="fade-in-down">
     <h1>Projects</h1>
-    <<nav class="nav-bar">
-  <a href="index.html">
-    <img src="assets/PHOTO.jpg" alt="Parkavi's photo" class="logo-pic">
-  </a>
-
-  <ul class="nav-links">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="skills.html">Skills</a></li>
-    <li><a href="certificates.html">Certificates</a></li>
-    <li><a href="projects.html">Projects</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
-</nav>
+    <nav class="nav-bar">
+      <a href="index.html">
+        <img src="assets/PHOTO.jpg" alt="Parkavi's photo" class="logo-pic" />
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="certificates.html">Certificates</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <section class="slide-in-left">
-    <h2>Deployed Applications</h2>
-    <ul class="value-list">
-      <li>🧠 AI-Powered Assistant using OpenAI API</li>
-      <li>📬 Contact Manager with Flask backend + JSON handling</li>
-      <li>🎨 Interactive Portfolio with animated transitions</li>
-      <li>🧪 API Tester integrated with Postman</li>
-    </ul>
-    <div class="project-card">
-  <h3>AI-Powered README Generator</h3>
-  <img src="assets/readme-generator-screenshot.png" alt="Screenshot of README Generator" loading="lazy" />
-  <p>
-    A web tool that auto-generates clean README.md files using OpenAI's GPT-3.5 Turbo. Built with Flask backend, deployed via Render with full CORS setup.
-  </p>
-  <a href="https://github.com/parkavi-tech/readme-generator" target="_blank" rel="noopener">View Project on GitHub →</a>
-</div>
-  </section>
+  <section class="fade-in-up" id="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
 
-  <section class="fade-in-up">
-    <h2>Tech Stack Highlights</h2>
-    <p>My projects blend backend precision with frontend flair — utilizing Flask and Flask-CORS, structured JSON responses, and smooth CSS animation for a seamless UX. Each application is deployed via Render with active port binding setup.</p>
-  </section>
+      <!-- Project 1 -->
+      <div class="project-card">
+        <h3>AI-Powered README Generator</h3>
+        <p>
+          Flask tool that generates structured README.md files using OpenAI API.
+          Hosted via Render with CORS configuration.
+        </p>
+        <a href="https://github.com/parkaviparthiban/readme-generator" target="_blank">GitHub Repo ↗</a>
+        <div class="output-preview">
+          <h4>Output Preview:</h4>
+          <img src="assets/readmegen_output.jpg" alt="README Output Screenshot" />
+          <pre>
+# Project Title
+## Description
+This tool creates README files using OpenAI and Flask.
+- API route: /generate
+- Output format: markdown (.md)
+          </pre>
+        </div>
+      </div>
 
-  <section class="bounce-in">
-    <h2>In Progress</h2>
-    <p>Currently working on enhancing project visuals by embedding screenshots and detailed walkthroughs for each featured item. Stay tuned — the documentation will reflect the same clarity and styling as the rest of the portfolio.</p>
+      <!-- Project 2 -->
+      <div class="project-card">
+        <h3>AI Customer Support Chatbot</h3>
+        <p>
+          Chatbot built with Flask + OpenAI designed for real-time product queries and support.
+          Scalable backend and natural response flow.
+        </p>
+        <a href="https://github.com/parkaviparthiban/readme-generator" target="_blank">GitHub Repo ↗</a>
+        <div class="output-preview">
+          <h4>Chat Transcript:</h4>
+          <img src="assets/ai chatbot.png" alt="Chatbot Conversation" />
+          <pre>
+User: Can I cancel my order?
+Bot: Absolutely! Just visit your profile and click 'Cancel Order'. Need help with anything else?
+          </pre>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>
+          Personal portfolio made with HTML/CSS/JavaScript featuring responsive layout,
+          smooth transitions, and certificate showcase.
+        </p>
+        <a href="https://github.com/parkaviparthiban/portfolio" target="_blank">GitHub Repo ↗</a>
+        <div class="output-preview">
+          <h4>Homepage Snapshot:</h4>
+          <img src="assets/portfolio_preview.png" alt="Portfolio Homepage Preview" />
+          <pre>
+Portfolio Features:
+- Smooth scroll and animations
+- Responsive sections
+- Certificate and project integration
+          </pre>
+        </div>
+      </div>
+
+    </div>
   </section>
 
   <footer>
-    <p>&copy; 2025 <strong>Parkavi</strong> | Coding with intent, deploying with heart 💡</p>
+    <p>&copy; 2025 <strong>Parkavi</strong> | Coding with intent, deploying with heart</p>
   </footer>
+
 </body>
 </html>

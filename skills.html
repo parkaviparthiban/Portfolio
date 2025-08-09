@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Skills | Parkavi</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" href="assets/favicon.ico" />
@@ -11,49 +11,139 @@
   <header class="fade-in-down">
     <h1>My Skills</h1>
     <nav class="nav-bar">
-  <a href="index.html">
-    <img src="assets/PHOTO.jpg" alt="Parkavi's photo" class="logo-pic">
-  </a>
-
-  <ul class="nav-links">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="skills.html">Skills</a></li>
-    <li><a href="certificates.html">Certificates</a></li>
-    <li><a href="projects.html">Projects</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
-</nav>
+      <a href="index.html">
+        <img src="assets/PHOTO.jpg" alt="Parkavi's photo" class="logo-pic">
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="certificates.html">Certificates</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
   </header>
 
   <section class="slide-in-left">
-    <h2>Technical Toolkit</h2>
-    <ul class="value-list">
-      <li>💻 Programming: C, Python, Java</li>
-      <li>🌐 Web Development: HTML, CSS, JavaScript</li>
-      <li>🔧 Backend Frameworks: Flask, Flask-CORS</li>
-      <li>🧪 Testing Tools: Postman, JSON APIs</li>
-      <li>🚀 Deployment: Render, port binding, environment setup</li>
-      <li>📦 Version Control & IDEs: GitHub, VS Code</li>
-    </ul>
-  </section>
-
+  <h2>Technical Toolkit</h2>
+  <div class="toolkit-grid">
+    <div class="toolkit-card">
+      <h3>Programming</h3>
+      <p>C, Python, Java</p>
+    </div>
+    <div class="toolkit-card">
+      <h3>Web Development</h3>
+      <p>HTML, CSS, JavaScript</p>
+    </div>
+    <div class="toolkit-card">
+      <h3>Backend Frameworks</h3>
+      <p>Flask, Flask-CORS</p>
+      <small>Built AI-powered README generator using OpenAI API</small>
+    </div>
+    <div class="toolkit-card">
+      <h3>Testing Tools</h3>
+      <p>Postman, JSON APIs</p>
+    </div>
+    <div class="toolkit-card">
+      <h3>Deployment</h3>
+      <p>Render, Port Binding</p>
+      <small>Resolved port conflicts and tuned live environments</small>
+    </div>
+    <div class="toolkit-card">
+      <h3>Version Control & IDEs</h3>
+      <p>GitHub, VS Code</p>
+    </div>
+  </div>
+</section>
   <section class="fade-in-up">
     <h2>Creative & Collaborative</h2>
     <ul class="value-list">
-      <li>📄 Documentation: README generation, technical writing</li>
-      <li>🎤 Communication: Skill-building speeches, presentations</li>
-      <li>🌈 Portfolio Design: CSS-rich layouts, animation integration</li>
+      <li>Documentation: README generation, technical writing</li>
+      <li>Communication: Skill-building speeches, presentations</li>
+      <li>Portfolio Design: CSS-rich layouts, animation integration</li>
     </ul>
+  </section>
+
+  <section class="fade-in-up" id="skills">
+  <h2>Skill Proficiency Matrix</h2>
+
+  <div class="skills-grid">
+
+    <div class="skill-box">
+      <h3>Python</h3>
+      <p>Backend scripting, AI integration</p>
+      <progress value="90" max="100"></progress>
+    </div>
+
+    <div class="skill-box">
+      <h3>Java</h3>
+      <p>Core programming, object-oriented logic</p>
+      <progress value="75" max="100"></progress>
+    </div>
+
+    <div class="skill-box">
+      <h3>Flask & Flask-CORS</h3>
+      <p>Web APIs, OpenAI integration</p>
+      <progress value="85" max="100"></progress>
+    </div>
+
+    <div class="skill-box">
+      <h3>HTML / CSS / JavaScript</h3>
+      <p>Responsive layouts, animations</p>
+      <progress value="80" max="100"></progress>
+    </div>
+
+    <div class="skill-box">
+      <h3>Postman & API Design</h3>
+      <p>API structuring and testing workflows</p>
+      <progress value="80" max="100"></progress>
+    </div>
+
+    <div class="skill-box">
+      <h3>OpenAI API & Prompt Engineering</h3>
+      <p>AI-powered project integration</p>
+      <progress value="88" max="100"></progress>
+    </div>
+
+    <div class="skill-box">
+      <h3>Render & Deployment</h3>
+      <p>Port binding, cloud hosting</p>
+      <progress value="70" max="100"></progress>
+    </div>
+
+    <div class="skill-box">
+      <h3>Ubuntu & VirtualBox</h3>
+      <p>System setup, troubleshooting</p>
+      <progress value="60" max="100"></progress>
+    </div>
+
+  </div>
+</section>
+
+  
+
+  <section class="fade-in-up">
+    <h2>Explore by Category</h2>
+    <div class="skill-tags">
+      <span class="skill-tag active" data-category="Frontend">Frontend</span>
+      <span class="skill-tag" data-category="Backend">Backend</span>
+      <span class="skill-tag" data-category="AI_ML">AI/ML</span>
+      <span class="skill-tag" data-category="Tools">Dev Tools</span>
+      <span class="skill-tag" data-category="SoftSkills">Soft Skills</span>
+    </div>
+    <div class="skill-content"></div>
   </section>
 
   <section class="bounce-in">
     <h2>Current Focus</h2>
-    <p>I’m actively refining animation-driven interactions and interactivity in my portfolio — making sure every scroll, hover, and click feels intuitive and polished. Next up: integrating certifications and project screenshots for proof of progress!</p>
+    <p>I’m actively refining animation-driven interactions and interactivity in my portfolio — making sure every scroll, hover, and click feels intuitive and polished. Next up: integrating certifications and project screenshots for proof of progress.</p>
   </section>
 
   <footer>
-    <p>&copy; 2025 <strong>Parkavi</strong> | Skills powered by passion 🔥</p>
+    <p>&copy; 2025 <strong>Parkavi</strong> | Skills powered by passion</p>
   </footer>
+
+  <script src="scripts/skills.js" defer></script>
 </body>
 </html>
