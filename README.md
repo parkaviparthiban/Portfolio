@@ -48,7 +48,7 @@ Hi! I'm Parkavi, a passionate developer blending backend logic with AI magic. I 
 ## 📸 Sneak Peek
 
 <p align="center">
-  <img src="assets/portfolio_preview.PNG" alt="Portfolio Screenshot" width="400"/>
+  <img src="assets\portfolio_preview.png" alt="Portfolio Screenshot" width="400"/>
   <br>
   <em>Crafted with care, styled with precision.</em>
 </p>
