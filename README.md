@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="https://parkaviparthiban.github.io">🌐 Visit Live Portfolio</a> • 
+  <a href="https://parkaviparthiban.github.io/Portfolio/">🌐 Visit Live Portfolio</a> • 
   <a href="https://github.com/parkaviparthihban">🐙 GitHub</a> • 
   <a href="mailto:parkaviparthiban06@gmail.com">📧 Email</a>
 </p>
