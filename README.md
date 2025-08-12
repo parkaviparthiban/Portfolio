@@ -55,9 +55,15 @@ Hi! I'm Parkavi, a passionate developer blending backend logic with AI magic. I 
 
 ---
 
+## License
+
+Code in this portfolio is licensed under the [MIT License](LICENSE).  
+Content and design elements are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
 ## 🧪 Run Locally
 
 ```bash
 git clone https://github.com/parkavi/portfolio.git
 cd portfolio
 open index.html
+
